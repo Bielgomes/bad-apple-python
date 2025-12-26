@@ -1,0 +1,11 @@
+[project]
+name = "bad-apple"
+version = "0.1.0"
+description = "Bad Apple"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "keyboard>=0.13.5",
+    "opencv-python>=4.12.0.88",
+    "pygame-ce>=2.5.6",
+]
