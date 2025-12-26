@@ -53,7 +53,7 @@ def audio_process():
     pygame.mixer.music.play()
 
     while pygame.mixer.music.get_busy():
-        time.sleep(1 / 60)
+        time.sleep(1 / 2)
 
 
 def frame_to_ascii(frame: cv.MatLike):
